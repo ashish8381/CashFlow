@@ -95,7 +95,7 @@ MIT License. Free for personal and commercial use.
 **Ashish Yadav**  
 Android Developer | Open Source Contributor  
 📧 ya0285981@gmail.com  
-📱 [LinkedIn](https://linkedin.com/in/ashish8381))
+📱 [LinkedIn](https://linkedin.com/in/ashish8381)
 
 ---
 
