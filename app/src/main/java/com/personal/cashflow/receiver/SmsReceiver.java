@@ -1,4 +1,4 @@
-package com.personal.cashflow.servics;
+package com.personal.cashflow.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

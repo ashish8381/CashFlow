@@ -1,4 +1,6 @@
 
+![CashFlow Cover](CashFlow_Cover.png)
+
 # 💸 CashFlow – SMS-Based Personal Finance Tracker
 
 CashFlow is a smart, lightweight Android app that automatically scans your SMS inbox to extract and track debit/credit transactions across banks like BOI, Federal Bank, HDFC, ICICI, SBI, and Axis. It helps you manage your expenses with monthly summaries, merchant breakdowns, and export options — all without needing internet or login.
@@ -41,7 +43,6 @@ Make sure you request and handle the following permissions:
 ```xml
 <uses-permission android:name="android.permission.READ_SMS"/>
 <uses-permission android:name="android.permission.RECEIVE_SMS"/>
-<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 ```
 
 ---
@@ -50,12 +51,11 @@ Make sure you request and handle the following permissions:
 
 ```
 com.personal.cashflow/
-├── activities/          # Main screens and UI
-├── room/                # Room database (TransactionModel, DAO)
-├── utils/               # SMS Parser, MonthlyGrouper, DateUtils
-├── adapter/             # RecyclerView Adapters
-├── receiver/            # SMS BroadcastReceiver
-└── repository/          # TransactionRepository (Singleton)
+├── ui/                 # Main screens and UI
+├── room/               # Room database (TransactionModel, DAO, TransactionRepository)
+├── utils/              # SMS Parser, MonthlyGrouper, DateUtils
+├── adapters/           # RecyclerView Adapters
+├── receiver/           # SMS BroadcastReceiver
 ```
 
 ---
